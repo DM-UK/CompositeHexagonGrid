@@ -4,7 +4,7 @@ Abstract board games such as [Settlers of Catan](https://en.wikipedia.org/wiki/C
 ## Composite Hexagon Grid Structure
 
 A **CompositeGrid** consists of a grid of **HexagonCells** and **TriangleCells**.
-##### HexagonCell
+
 Each **HexagonCell** contains a reference to the \<**H**> hexagon object. As well as some useful references to the objects it shares a relationship with as follows:
 
 - The **HexagonCoordinate**.
@@ -18,8 +18,7 @@ Each **HexagonCell** contains a reference to the \<**H**> hexagon object. As wel
 - The six \<**E**> edge objects along the hexagons border.
 
 - The six \<**E**> edge objects around the centroid.
-
-##### TriangleCell
+  
 Each **TriangleCell** contains a reference to the \<**V**> vertex object. As well as some useful references to the objects it shares a relationship with as follows:
 
 - The **TriangleCoordinate**.
