@@ -1,6 +1,6 @@
 Abstract board games such as [Settlers of Catan](https://en.wikipedia.org/wiki/Catan) use the edge, vertex and hexagon components of a hexagon grid. This java project implements a similar grid system with built-in support for rendering and mouse interaction.
 
-![[/src/main/resources/Pasted image 20250805180433.png]]
+![](/src/main/resources/image20250805180433.png)
 ## Composite Hexagon Grid Structure
 
 A **CompositeGrid** consists of a grid of **HexagonCells** and **TriangleCells**.
@@ -58,15 +58,15 @@ It is recommended to wrap custom grids in a separate class so as to shield users
 
 **Visualising the grid objects and their coordinate systems:**
 
-![[/src/main/resources/Pasted image 20250805153639.png]]
+![](/src/main/resources/image20250805153639.png)
 
-![[/src/main/resources/Pasted image 20250805151003.png]]
+![](/src/main/resources/image20250805151003.png)
 
-![[/src/main/resources/Pasted image 20250805150628.png]]
+![](/src/main/resources/image20250805150628.png)
 
-![[/src/main/resources/Pasted image 20250805150705.png]]
+![](/src/main/resources/image20250805150705.png)
 
-![[/src/main/resources/Pasted image 20250805150807.png]]
+![](/src/main/resources/image20250805150807.png)
 
 ## Rendering
 Rendering to a Graphics2D canvas can be achieved by overriding the abstract methods in AbstractGridRenderer. All screen geometry is pre-calculated and presented to the user as parameters in their respective methods.
