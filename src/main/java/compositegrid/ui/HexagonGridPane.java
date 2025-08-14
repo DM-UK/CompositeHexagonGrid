@@ -64,6 +64,8 @@ public class HexagonGridPane extends JPanel {
         addMouseListener(selectionMouseAdapter);
         add(gridOverlayBar);
         setCameraPosition(new FractionalTriangleCoordinate(3, 3, -6));
+        setLayout(null);
+        gridOverlayBar.setBounds(0, 0, canvasWidth, 25);
     }
 
     public void paintComponent(Graphics g){
