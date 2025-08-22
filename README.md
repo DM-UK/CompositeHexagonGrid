@@ -54,7 +54,7 @@ A **HexagonDirection** involves the directions: NORTHWEST, NORTH, NORTHEAST, SOU
 
 A **TriangleDirection** involves the directions: WEST, NORTHWEST, NORTHEAST, EAST, SOUTHEAST, SOUTHWEST
 
-## Generics and Creation
+## Type Parameters
 The hexagon, vertex and edge objects are type associated as follows:
 
 - CompositeGrid<H, V, E>
