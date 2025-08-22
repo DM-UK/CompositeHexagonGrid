@@ -1,3 +1,5 @@
+# CompositeHexagonGrid #
+
 Abstract board games such as [Settlers of Catan](https://en.wikipedia.org/wiki/Catan) use the edge, vertex and hexagon components of a hexagon grid. 
 
 This java project implements a similar grid system. A hexagon grid with underlying vertex and edge mechanics, with support for rendering and mouse interaction.
